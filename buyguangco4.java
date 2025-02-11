@@ -9,7 +9,7 @@ public class buyguangco4
                 Scanner scanner = new Scanner(System.in);
 		boolean isValid = false;
 		
-		while (isValid)
+		while (!isValid)
 		{	
 			int choice = scanner.nextInt();
 			
@@ -38,5 +38,6 @@ public class buyguangco4
 				System.out.println("Invalid option, please try again.");
 			}
 		}
+		scanner.close();
 	}
 }
