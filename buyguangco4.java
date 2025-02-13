@@ -1,3 +1,6 @@
+//Brent Jericho Uyguangco
+//Lab 4b CSC 321
+
 import java.util.Scanner;
 
 public class buyguangco4
