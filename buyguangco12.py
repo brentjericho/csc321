@@ -12,8 +12,12 @@ def circleArea(radius):
 length = int(input("Please enter the length of the rectangle: "))
 width = int(input("Please enter the width of the rectangle: "))
 
-print("The area of the rectangle is ", rectangleArea(length, width))
+rectangle_area = rectangleArea(length, width)
+
+print("The area of the rectangle is ", rectangle_area)
 
 radius = int(input("Please enther the radius of the circle: "))
 
-print("The area of the circle is ", circleArea(radius))
+circle_area = circleArea(radius)
+
+print("The area of the circle is: ", circle_area)
