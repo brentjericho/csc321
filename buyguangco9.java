@@ -22,7 +22,14 @@ public class buyguangco9
 
                         if((a >= 1 && a <= 20) && (a != d))
                         {
-                                System.out.println("WRONG, please try again.");
+				if(a > d)
+				{
+				 	System.out.println("WRONG, your guess is too high, please try again. ");
+				}
+				else if(a < d)
+				{
+					System.out.println("WRONG, your answer is too low, please try again.");
+				}
                         }
                         else if(a < 1 || a > 20)
                         {

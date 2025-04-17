@@ -11,7 +11,7 @@ int main(void)
 	int a, b, c, d;
 	bool isWrong = true;
 	srand(time(NULL));
-	d = rand() %20;
+	d = rand() %20 + 1;
 
 	while(isWrong)
 	{
@@ -23,7 +23,14 @@ int main(void)
 		}
 		else if((a >= 1 && a <= 20) && (a != d))
                 {
-                        printf("WRONG, please try again.\n");
+			if(a > d)
+			{
+                        	printf("WRONG, your guess is too high, please try again.\n");
+			}
+			else if(a < d)
+			{
+				 printf("WRONG, your guess is too low, please try again.\n");
+			}	
                 }
 		else if(a == d)
 		{
