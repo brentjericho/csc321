@@ -1,3 +1,7 @@
+//Brent Jericho Uyguangco
+//CSC 321 Lab 10
+
+
 import java.util.Scanner;
 
 public class buyguangco10
